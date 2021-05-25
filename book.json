@@ -1,0 +1,142 @@
+{
+  "title": "防止iPhone被黑：iOS安全",
+  "description": "介绍iOS安全，防止你的iPhone被黑。先介绍iOS安全的概览。再介绍iOS操作系统层面的安全机制。再整理iOS的安全和破解相关的工具和技术，包括Mac的逆向工具Hopper Disassembler；Linux的编译套件LLVM及相关的LLDB和Obfuscator-LLVM；Linux的调试器lldb-server、逆向工具Miasm、radare2及相关的Cutter；以及iOS的各种工具，包括正向的混淆工具ios-class-guard；破解方面，调试器debugserver，插件开发的MonkeyDev，苹果二进制格式Mach-O的处理工具class-dump、MachOView、jtool、otool等；砸壳工具bfinject、Clutch、Dumpdecrypted、frida-ios-dump；越狱工具Cydia Substrate、frida、Electra、unc0ver。最后给出参考资料。",
+  "pluginsConfig": {
+    "autocover": {
+      "title": "Gitbook演示"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "prevent_iphone_hacked_ios_security",
+          "user": "crifan",
+          "type": "star",
+          "count": true,
+          "size": "small"
+        },
+        {
+          "user": "crifan",
+          "type": "follow",
+          "width": "120",
+          "count": false,
+          "size": "small"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/prevent_iphone_hacked_ios_security/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/prevent_iphone_hacked_ios_security/pdf/prevent_iphone_hacked_ios_security.pdf",
+      "icon": "fa-file-pdf-o",
+      "label": "下载PDF"
+    },
+    "google-adsense": {
+      "ads": [
+        {
+          "client": "ca-pub-6626240105039250"
+        }
+      ]
+    },
+    "callouts": {
+      "showTypeInHeader": false
+    },
+    "theme-default": {
+      "showLevel": true
+    },
+    "disqus": {
+      "shortName": "crifan"
+    },
+    "prism": {
+      "css": [
+        "prism-themes/themes/prism-atom-dark.css"
+      ]
+    },
+    "sharing": {
+      "douban": false,
+      "facebook": true,
+      "google": false,
+      "hatenaBookmark": false,
+      "instapaper": false,
+      "line": false,
+      "linkedin": false,
+      "messenger": false,
+      "pocket": false,
+      "qq": true,
+      "qzone": false,
+      "stumbleupon": false,
+      "twitter": true,
+      "viber": false,
+      "vk": false,
+      "weibo": true,
+      "whatsapp": false,
+      "all": [
+        "douban",
+        "facebook",
+        "google",
+        "instapaper",
+        "line",
+        "linkedin",
+        "messenger",
+        "pocket",
+        "qq",
+        "qzone",
+        "stumbleupon",
+        "twitter",
+        "viber",
+        "vk",
+        "weibo",
+        "whatsapp"
+      ]
+    },
+    "tbfed-pagefooter": {
+      "copyright": "crifan.com，使用<a href='https://creativecommons.org/licenses/by/4.0/deed.zh'>署名4.0国际(CC BY 4.0)协议</a>发布",
+      "modify_label": "最后更新：",
+      "modify_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "ga": {
+      "token": "UA-28297199-1"
+    },
+    "donate": {
+      "wechat": "https://www.crifan.com/files/res/crifan_com/crifan_wechat_pay.jpg",
+      "alipay": "https://www.crifan.com/files/res/crifan_com/crifan_alipay_pay.jpg",
+      "title": "",
+      "button": "打赏",
+      "alipayText": "支付宝打赏给Crifan",
+      "wechatText": "微信打赏给Crifan"
+    }
+  },
+  "author": "Crifan Li <admin@crifan.com>",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "root": "./src",
+  "links": {
+    "sidebar": {
+      "主页": "http://www.crifan.com"
+    }
+  },
+  "plugins": [
+    "google-adsense",
+    "theme-comscore",
+    "anchors",
+    "-lunr",
+    "-search",
+    "search-plus",
+    "disqus",
+    "-highlight",
+    "prism",
+    "prism-themes",
+    "github-buttons",
+    "splitter",
+    "-sharing",
+    "sharing-plus",
+    "tbfed-pagefooter",
+    "expandable-chapters-small",
+    "ga",
+    "donate",
+    "sitemap-general",
+    "copy-code-button",
+    "callouts",
+    "toolbar-button"
+  ]
+}

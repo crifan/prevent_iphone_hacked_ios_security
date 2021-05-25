@@ -1,0 +1,22 @@
+{
+  "title": "防止iPhone被黑：iOS安全",
+  "description": "介绍iOS安全，防止你的iPhone被黑。先介绍iOS安全的概览。再介绍iOS操作系统层面的安全机制。再整理iOS的安全和破解相关的工具和技术，包括Mac的逆向工具Hopper Disassembler；Linux的编译套件LLVM及相关的LLDB和Obfuscator-LLVM；Linux的调试器lldb-server、逆向工具Miasm、radare2及相关的Cutter；以及iOS的各种工具，包括正向的混淆工具ios-class-guard；破解方面，调试器debugserver，插件开发的MonkeyDev，苹果二进制格式Mach-O的处理工具class-dump、MachOView、jtool、otool等；砸壳工具bfinject、Clutch、Dumpdecrypted、frida-ios-dump；越狱工具Cydia Substrate、frida、Electra、unc0ver。最后给出参考资料。",
+  "pluginsConfig": {
+    "autocover": {
+      "title": "Gitbook演示"
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "repo": "prevent_iphone_hacked_ios_security"
+        }
+      ]
+    },
+    "sitemap-general": {
+      "prefix": "https://book.crifan.com/gitbook/prevent_iphone_hacked_ios_security/website/"
+    },
+    "toolbar-button": {
+      "url": "http://book.crifan.com/books/prevent_iphone_hacked_ios_security/pdf/prevent_iphone_hacked_ios_security.pdf"
+    }
+  }
+}
